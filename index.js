@@ -9,10 +9,6 @@ app.use(express.json());
 // CORS
 app.use(cors());
 
-// connect to mySQL
-// mySQL_data();
-
-
 //creating the routes
 app.use('/api', require('./Routes/testapi'));
 
